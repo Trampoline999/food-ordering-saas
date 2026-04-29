@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Cormorant+Garamond:wght@600;700&display=swap');
+
+/* ── Page Wrapper ─────────────────────────── */
+.res-body {
+  min-height: 100vh;
+  background: #faf9f7;
+  font-family: 'Outfit', sans-serif;
+  padding-bottom: 80px;
+}
+
+/* ── Search Bar Section ───────────────────── */
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 48px 32px;
+  background: #ffffff;
+  border-bottom: 1px solid #f0eeeb;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.search-input {
+  flex: 1;
+  height: 48px;
+  padding: 12px 20px;
+  background: #faf9f7;
+  border: 1.5px solid #e8e4df;
+  border-radius: 12px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  color: #4a4540;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.search-input::placeholder {
+  color: #aaa49d;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #c8a96e;
+  box-shadow: 0 0 0 3px rgba(200, 169, 110, 0.1);
+  background: #ffffff;
+}
+
+.search-btn {
+  height: 48px;
+  padding: 12px 28px;
+  background: #1a1208;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  transition: all 180ms ease;
+}
+
+.search-btn:hover {
+  background: #2d2015;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(26, 18, 8, 0.15);
+}
+
+.search-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(26, 18, 8, 0.1);
+}
+
+.clear-btn {
+  height: 48px;
+  padding: 12px 28px;
+  background: #f5f3f0;
+  color: #4a4540;
+  border: 1.5px solid #e8e4df;
+  border-radius: 12px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  transition: all 180ms ease;
+}
+
+.clear-btn:hover {
+  background: #ede9e4;
+  border-color: #d4cec5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 69, 64, 0.1);
+}
+
+.clear-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(74, 69, 64, 0.08);
+}
+
+/* ── Section Title ────────────────────────── */
+.res-body-title {
+  padding: 40px 48px 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1208;
+  letter-spacing: -0.4px;
+}
+
+.res-body-title span {
+  color: #aaa49d;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  vertical-align: middle;
+  letter-spacing: 0;
+}
+
+/* ── Filter Bar ───────────────────────────── */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  padding: 24px 48px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1.5px solid #e8e4df;
+  background: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a4540;
+  cursor: pointer;
+  transition: all 180ms ease;
+}
+
+.filter-btn:hover {
+  border-color: #c8a96e;
+  color: #1a1208;
+  background: #fdf8f0;
+}
+
+.filter-btn:active {
+  transform: scale(0.97);
+}
+
+.filter-btn.active {
+  background: #f5ede0;
+  border-color: #c8a96e;
+  color: #7a4f1e;
+  font-weight: 500;
+}
+
+/* ── Restaurant Grid ──────────────────────── */
+.res-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+  gap: 24px;
+  padding: 28px 48px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/* ── Responsive ───────────────────────────── */
+@media (max-width: 1024px) {
+  .filter-bar {
+    padding: 20px 32px 0;
+  }
+
+  .res-container {
+    padding: 24px 32px 0;
+    gap: 20px;
+  }
+
+  .res-body-title {
+    padding: 32px 32px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .search {
+    padding: 24px 20px 20px;
+  }
+
+  .search-input {
+    font-size: 13px;
+    padding: 10px 16px;
+    height: 44px;
+  }
+
+  .search-btn {
+    height: 44px;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .search-wrapper {
+    gap: 10px;
+  }
+
+  .filter-bar {
+    padding: 16px 20px 0;
+  }
+
+  .filter-btn {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+
+  .res-container {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    padding: 20px 20px 0;
+    gap: 16px;
+  }
+
+  .res-body-title {
+    padding: 24px 20px 0;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .res-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,705 @@
+[
+  {
+    "id": 1,
+    "name": "BBQ Nation",
+    "cuisine": "Barbecue",
+    "rating": 4.5,
+    "time": "45-50 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400",
+    "offer": "10% OFF above ₹500",
+    "tag": "Bestseller",
+    "price": 550,
+    "menuItems": [
+      {
+        "id": 1,
+        "name": "Smoked Brisket",
+        "description": "Slow-smoked beef brisket with house BBQ sauce",
+        "price": 450,
+        "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 2,
+        "name": "BBQ Ribs",
+        "description": "Tender pork ribs glazed with signature BBQ sauce",
+        "price": 380,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 3,
+        "name": "Pulled Pork Sandwich",
+        "description": "Slow-cooked pulled pork with coleslaw in brioche bun",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1551782450-17144efb5723?w=300&fit=crop",
+        "category": "Sandwiches",
+        "isVeg": false,
+        "isPopular": false
+      },
+      {
+        "id": 4,
+        "name": "Cornbread",
+        "description": "Freshly baked cornbread with honey butter",
+        "price": 80,
+        "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=300&fit=crop",
+        "category": "Sides",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 5,
+        "name": "Mac & Cheese",
+        "description": "Creamy macaroni and cheese with crispy topping",
+        "price": 150,
+        "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=300&fit=crop",
+        "category": "Sides",
+        "isVeg": true,
+        "isPopular": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dragon Wok",
+    "cuisine": "Chinese",
+    "rating": 4.1,
+    "time": "40-45 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400",
+    "offer": "20% OFF",
+    "tag": "Popular",
+    "price": 300,
+    "menuItems": [
+      {
+        "id": 6,
+        "name": "Kung Pao Chicken",
+        "description": "Spicy stir-fried chicken with peanuts and vegetables",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 7,
+        "name": "Vegetable Manchurian",
+        "description": "Crispy vegetable balls in tangy Manchurian sauce",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 8,
+        "name": "Chicken Fried Rice",
+        "description": "Wok-tossed rice with chicken, eggs and vegetables",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=300&fit=crop",
+        "category": "Rice & Noodles",
+        "isVeg": false,
+        "isPopular": false
+      },
+      {
+        "id": 9,
+        "name": "Veg Chow Mein",
+        "description": "Stir-fried noodles with mixed vegetables and sauces",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=300&fit=crop",
+        "category": "Rice & Noodles",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 10,
+        "name": "Spring Rolls",
+        "description": "Crispy vegetable spring rolls with sweet chili sauce",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=300&fit=crop",
+        "category": "Appetizers",
+        "isVeg": true,
+        "isPopular": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Thai Orchid",
+    "cuisine": "Thai",
+    "rating": 4.3,
+    "time": "30-40 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400",
+    "offer": "25% OFF",
+    "tag": "Spicy",
+    "price": 320,
+    "menuItems": [
+      {
+        "id": 11,
+        "name": "Pad Thai",
+        "description": "Rice noodles with shrimp, tofu, eggs and tamarind sauce",
+        "price": 260,
+        "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=300&fit=crop",
+        "category": "Noodles",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 12,
+        "name": "Green Curry",
+        "description": "Spicy coconut curry with bamboo shoots and Thai basil",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=300&fit=crop",
+        "category": "Curry",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 13,
+        "name": "Tom Yum Soup",
+        "description": "Hot and sour soup with lemongrass and chili",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=300&fit=crop",
+        "category": "Soups",
+        "isVeg": false,
+        "isPopular": false
+      },
+      {
+        "id": 14,
+        "name": "Mango Sticky Rice",
+        "description": "Sweet sticky rice with fresh mango and coconut milk",
+        "price": 150,
+        "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=300&fit=crop",
+        "category": "Desserts",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 15,
+        "name": "Chicken Satay",
+        "description": "Grilled chicken skewers with peanut sauce",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=300&fit=crop",
+        "category": "Appetizers",
+        "isVeg": false,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sushi Zen",
+    "cuisine": "Japanese",
+    "rating": 4.7,
+    "time": "35-40 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400",
+    "offer": "30% OFF up to ₹150",
+    "tag": "Premium",
+    "price": 600,
+    "menuItems": [
+      {
+        "id": 16,
+        "name": "Salmon Nigiri",
+        "description": "Fresh salmon over seasoned rice",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=300&fit=crop",
+        "category": "Nigiri",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 17,
+        "name": "California Roll",
+        "description": "Crab, avocado and cucumber roll",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=300&fit=crop",
+        "category": "Maki Rolls",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 18,
+        "name": "Tuna Sashimi",
+        "description": "Fresh tuna slices served with wasabi and soy",
+        "price": 450,
+        "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?w=300&fit=crop",
+        "category": "Sashimi",
+        "isVeg": false,
+        "isPopular": false
+      },
+      {
+        "id": 19,
+        "name": "Avocado Roll",
+        "description": "Fresh avocado roll with sesame seeds",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=300&fit=crop",
+        "category": "Vegetarian",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 20,
+        "name": "Miso Soup",
+        "description": "Traditional Japanese soybean soup with tofu",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=300&fit=crop",
+        "category": "Soups",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Kerala Kitchen",
+    "cuisine": "South Indian",
+    "rating": 4.6,
+    "time": "30-35 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400",
+    "offer": "40% OFF up to ₹120",
+    "tag": "Authentic",
+    "price": 180,
+    "menuItems": [
+      {
+        "id": 21,
+        "name": "Appam with Stew",
+        "description": "Fermented rice pancakes with vegetable stew",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1630383249896-424e482df921?w=300&fit=crop",
+        "category": "Breakfast",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 22,
+        "name": "Fish Curry",
+        "description": "Traditional Kerala fish curry with coconut",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 23,
+        "name": "Avial",
+        "description": "Mixed vegetables in coconut yogurt sauce",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1626577442031-62ab5f2b0038?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 24,
+        "name": "Puttu",
+        "description": "Steamed rice cake with coconut and banana",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=300&fit=crop",
+        "category": "Breakfast",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 25,
+        "name": "Sambar Rice",
+        "description": "Rice with lentil stew and vegetables",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=300&fit=crop",
+        "category": "Rice Dishes",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Spice Garden",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "time": "30-35 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400",
+    "offer": "50% OFF up to ₹100",
+    "tag": "Bestseller",
+    "price": 250,
+    "menuItems": [
+      {
+        "id": 26,
+        "name": "Butter Chicken",
+        "description": "Creamy tomato curry with tender chicken",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae391?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 27,
+        "name": "Paneer Tikka Masala",
+        "description": "Grilled paneer in rich tomato-based curry",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 28,
+        "name": "Dal Makhani",
+        "description": "Slow-cooked black lentils with cream and butter",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 29,
+        "name": "Chicken Biryani",
+        "description": "Fragrant basmati rice with spiced chicken",
+        "price": 260,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&fit=crop",
+        "category": "Rice Dishes",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 30,
+        "name": "Garlic Naan",
+        "description": "Fresh baked bread with garlic and butter",
+        "price": 60,
+        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&fit=crop",
+        "category": "Breads",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Burger Barn",
+    "cuisine": "American",
+    "rating": 4.6,
+    "time": "20-25 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+    "offer": "Buy 1 Get 1 Free",
+    "tag": "Must Try",
+    "price": 200,
+    "menuItems": [
+      {
+        "id": 31,
+        "name": "Classic Cheeseburger",
+        "description": "Beef patty with cheese, lettuce, tomato and special sauce",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&fit=crop",
+        "category": "Burgers",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 32,
+        "name": "BBQ Bacon Burger",
+        "description": "Beef patty with bacon, BBQ sauce and onion rings",
+        "price": 240,
+        "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=300&fit=crop",
+        "category": "Burgers",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 33,
+        "name": "Veggie Burger",
+        "description": "Plant-based patty with avocado and sprouts",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1520072959219-c8b7dfb7e9a2?w=300&fit=crop",
+        "category": "Burgers",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 34,
+        "name": "Loaded Fries",
+        "description": "Crispy fries with cheese, bacon and green onions",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=300&fit=crop",
+        "category": "Sides",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 35,
+        "name": "Milkshake",
+        "description": "Thick and creamy vanilla milkshake",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=300&fit=crop",
+        "category": "Beverages",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Taco Fiesta",
+    "cuisine": "Mexican",
+    "rating": 4.2,
+    "time": "25-30 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400",
+    "offer": "Flat ₹50 OFF",
+    "tag": "New",
+    "price": 220,
+    "menuItems": [
+      {
+        "id": 36,
+        "name": "Chicken Quesadilla",
+        "description": "Grilled tortilla with chicken, cheese and salsa",
+        "price": 200,
+        "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 37,
+        "name": "Beef Tacos",
+        "description": "Three soft tacos with seasoned beef and toppings",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=300&fit=crop",
+        "category": "Tacos",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 38,
+        "name": "Veggie Burrito",
+        "description": "Large tortilla filled with beans, rice and vegetables",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1584031426062-c4c1b4b9c2e1?w=300&fit=crop",
+        "category": "Burritos",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 39,
+        "name": "Guacamole",
+        "description": "Fresh avocado dip with chips",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=300&fit=crop",
+        "category": "Appetizers",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 40,
+        "name": "Churros",
+        "description": "Cinnamon sugar coated fried dough with chocolate",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=300&fit=crop",
+        "category": "Desserts",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pho Street",
+    "cuisine": "Vietnamese",
+    "rating": 4.2,
+    "time": "25-35 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=400",
+    "offer": "Flat ₹80 OFF",
+    "tag": "Light & Healthy",
+    "price": 260,
+    "menuItems": [
+      {
+        "id": 41,
+        "name": "Beef Pho",
+        "description": "Rice noodle soup with tender beef and herbs",
+        "price": 240,
+        "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=300&fit=crop",
+        "category": "Soups",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 42,
+        "name": "Chicken Pho",
+        "description": "Rice noodle soup with chicken and fresh herbs",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=300&fit=crop",
+        "category": "Soups",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 43,
+        "name": "Tofu Pho",
+        "description": "Rice noodle soup with tofu and vegetables",
+        "price": 200,
+        "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300&fit=crop",
+        "category": "Soups",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 44,
+        "name": "Spring Rolls",
+        "description": "Fresh rice paper rolls with shrimp and herbs",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1562802378-063ec186a863?w=300&fit=crop",
+        "category": "Appetizers",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 45,
+        "name": "Vietnamese Coffee",
+        "description": "Strong coffee with condensed milk",
+        "price": 80,
+        "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=300&fit=crop",
+        "category": "Beverages",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "The Greek Table",
+    "cuisine": "Greek",
+    "rating": 4.4,
+    "time": "35-45 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+    "offer": "Free Delivery",
+    "tag": "Healthy",
+    "price": 450,
+    "menuItems": [
+      {
+        "id": 46,
+        "name": "Moussaka",
+        "description": "Layered eggplant casserole with ground meat and béchamel",
+        "price": 380,
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=300&fit=crop",
+        "category": "Main Course",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 47,
+        "name": "Greek Salad",
+        "description": "Tomatoes, cucumbers, olives, feta and olive oil dressing",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&fit=crop",
+        "category": "Salads",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 48,
+        "name": "Souvlaki",
+        "description": "Grilled pork skewers with tzatziki sauce",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=300&fit=crop",
+        "category": "Grilled",
+        "isVeg": false,
+        "isPopular": false
+      },
+      {
+        "id": 49,
+        "name": "Spanakopita",
+        "description": "Spinach and feta cheese pie in phyllo pastry",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&fit=crop",
+        "category": "Appetizers",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 50,
+        "name": "Baklava",
+        "description": "Sweet pastry with nuts and honey syrup",
+        "price": 150,
+        "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=300&fit=crop",
+        "category": "Desserts",
+        "isVeg": true,
+        "isPopular": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Pizza Palace",
+    "cuisine": "Italian",
+    "rating": 4.3,
+    "time": "25-30 mins",
+    "imgSrc": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+    "offer": "Free Delivery",
+    "tag": "Trending",
+    "price": 350,
+    "menuItems": [
+      {
+        "id": 51,
+        "name": "Margherita Pizza",
+        "description": "Fresh mozzarella, tomato sauce and basil",
+        "price": 280,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&fit=crop",
+        "category": "Pizzas",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 52,
+        "name": "Pepperoni Pizza",
+        "description": "Pepperoni, mozzarella and tomato sauce",
+        "price": 350,
+        "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=300&fit=crop",
+        "category": "Pizzas",
+        "isVeg": false,
+        "isPopular": true
+      },
+      {
+        "id": 53,
+        "name": "Chicken Alfredo Pasta",
+        "description": "Fettuccine in creamy Alfredo sauce with chicken",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=300&fit=crop",
+        "category": "Pasta",
+        "isVeg": false,
+        "isPopular": false
+      },
+      {
+        "id": 54,
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=300&fit=crop",
+        "category": "Salads",
+        "isVeg": true,
+        "isPopular": false
+      },
+      {
+        "id": 55,
+        "name": "Tiramisu",
+        "description": "Classic Italian coffee-flavored dessert",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&fit=crop",
+        "category": "Desserts",
+        "isVeg": true,
+        "isPopular": true
+      },
+      {
+        "id": 56,
+        "name": "Chocolate Lava Cake",
+        "description": "Warm molten chocolate cake with a gooey center, served with vanilla ice cream",
+        "price": 190,
+        "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=300&fit=crop",
+        "category": "Desserts",
+        "isVeg": true,
+        "isPopular": true
+      }
+    ]
+  }
+]
