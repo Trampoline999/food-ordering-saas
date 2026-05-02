@@ -9,6 +9,7 @@
     "offer": "10% OFF above ₹500",
     "tag": "Bestseller",
     "price": 550,
+    "promoted": true,
     "menuItems": [
       {
         "id": 1,
@@ -72,6 +73,7 @@
     "offer": "20% OFF",
     "tag": "Popular",
     "price": 300,
+    "promoted": false,
     "menuItems": [
       {
         "id": 6,
@@ -135,6 +137,7 @@
     "offer": "25% OFF",
     "tag": "Spicy",
     "price": 320,
+    "promoted": true,
     "menuItems": [
       {
         "id": 11,
@@ -198,6 +201,7 @@
     "offer": "30% OFF up to ₹150",
     "tag": "Premium",
     "price": 600,
+    "promoted": false,
     "menuItems": [
       {
         "id": 16,
@@ -261,6 +265,7 @@
     "offer": "40% OFF up to ₹120",
     "tag": "Authentic",
     "price": 180,
+    "promoted": true,
     "menuItems": [
       {
         "id": 21,
@@ -324,6 +329,7 @@
     "offer": "50% OFF up to ₹100",
     "tag": "Bestseller",
     "price": 250,
+    "promoted": false,
     "menuItems": [
       {
         "id": 26,
@@ -387,6 +393,7 @@
     "offer": "Buy 1 Get 1 Free",
     "tag": "Must Try",
     "price": 200,
+    "promoted": true,
     "menuItems": [
       {
         "id": 31,
@@ -450,6 +457,7 @@
     "offer": "Flat ₹50 OFF",
     "tag": "New",
     "price": 220,
+    "promoted": false,
     "menuItems": [
       {
         "id": 36,
@@ -513,6 +521,7 @@
     "offer": "Flat ₹80 OFF",
     "tag": "Light & Healthy",
     "price": 260,
+    "promoted": true,
     "menuItems": [
       {
         "id": 41,
@@ -576,6 +585,7 @@
     "offer": "Free Delivery",
     "tag": "Healthy",
     "price": 450,
+    "promoted": false,
     "menuItems": [
       {
         "id": 46,
@@ -639,6 +649,7 @@
     "offer": "Free Delivery",
     "tag": "Trending",
     "price": 350,
+    "promoted": true,
     "menuItems": [
       {
         "id": 51,

@@ -30,6 +30,9 @@ const Header = () => {
         <li className="navbar-links">
           <Link to="/contact">Contact Us</Link>
         </li>
+        <li className="navbar-links">
+          <Link to="/grocery">Grocery</Link>
+        </li>
         <li className="login-btn" onClick={handleLogin}>{login === false ? "login": "logout"}</li>
         <li className="navbar-links">Cart</li>
         </ul>

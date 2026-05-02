@@ -84,6 +84,9 @@
 .res-card-tag.hot {
   background: #e23744;
 }
+.res-card-tag.green {
+  background: #1b9210;
+}
 
 /* ── Card Body ────────────────────────────── */
 .res-card-body {

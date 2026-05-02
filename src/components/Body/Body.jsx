@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import ResturantCard from "./ResturantCard/ResturantCard";
 import "./Body.css";
 import resData from "../../data/data.json";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../../utility/useOnlineStatus";
+import { ResturantCard,withPromotedResturant } from "./ResturantCard/ResturantCard";
 
 // { name, cuisine, rating, time, imgSrc, offer, tag }
 
 const Body = () => {
+  
   const onlineStatus = useOnlineStatus();
   const [filterData, setFilterData] = useState(resData);
   const [searchInput, setSearchInput] = useState("");
@@ -17,6 +18,7 @@ const Body = () => {
     setFilterData(filteredResturant);
   };
 
+  const PromotedLabelResturant = withPromotedResturant(ResturantCard)
   const handleSearch = () => {
     const data = resData.filter(({ name }) => {
       return name.toLowerCase().includes(searchInput.toLowerCase());
@@ -60,11 +62,21 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filterData.map(
-          ({ id, name, cuisine, rating, time, imgSrc, offer, tag, price }) => {
+          ({ id, name, cuisine, rating, time, imgSrc, offer, tag, price,promoted }) => {
             return (
               <Link to={`/resturant/${id}`}>
                 {" "}
-                <ResturantCard
+                { promoted===true ? (<PromotedLabelResturant key={id}
+                  name={name}
+                  cuisine={cuisine}
+                  rating={rating}
+                  time={time}
+                  imgSrc={imgSrc}
+                  offer={offer}
+                  tag={tag}
+                  price={price}
+                  promoted={promoted}  />) 
+                  :( <ResturantCard
                   key={id}
                   name={name}
                   cuisine={cuisine}
@@ -74,7 +86,7 @@ const Body = () => {
                   offer={offer}
                   tag={tag}
                   price={price}
-                />
+                />)}
               </Link>
             );
           },
